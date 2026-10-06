@@ -1,7 +1,6 @@
-# Penguin data
+# Tilt table data
 
-Place `penguinshort.mat` here (MATLAB struct with key `penguinshort`).
+Place `tilt_table.mat` here (MATLAB struct with key `tilt_table`).
 
-Source: Magellanic penguin dive telemetry, 22.5-second dive sampled at
-40 Hz (Ponganis et al., 2015; Williams et al., 2012). Used in the same
-form in TSC'22 (Zhang et al., 2022), from which the file originates.
+Source: arterial blood pressure (ABP) signal during a tilt table test,
+originally used in TSC'17 (Zhu et al., 2017).
