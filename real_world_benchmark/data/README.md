@@ -39,15 +39,6 @@ extra true positive, was confirmed as the correct match against the
 paper's published numbers for exactly those two cases. See the
 function's docstring in `src/metrics.py` for the full explanation.
 
-## Minor note on TwoLeadECG
-
-Reconstructions 1-3 match the exact detected chain indices reported
-in the working session; reconstructions 4-5 produce different raw
-indices but identical derived P/R/F1 scores, suggesting a minor
-transcription difference in the originally-reported index lists for
-those two reconstructions rather than a data or pipeline issue (the
-metrics that actually populate Table 4 match exactly either way).
-
 ## Source
 
 UCR Time Series Archive (Dau et al., 2018); reconstructed series and
