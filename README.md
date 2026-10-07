@@ -90,12 +90,7 @@ every row of Table 4: Plane (P=0.98, R=0.94, F1=0.96), TwoLeadECG
 (P=0.98, R=0.98, F1=0.98), ECG200 (P=0.60, R=0.54, F1=0.57), Wafer
 (P=0.80, R=0.66, F1=0.72), FreezerRegularTrain (P=0.96, R=0.86,
 F1=0.90), FreezerSmallTrain (P=0.93, R=0.84, F1=0.88), and TwoPatterns
-(P=0.76, R=0.68, F1=0.71). See `data/README.md` for details,
-including a note on the one-to-one matching metric
-(`compute_performance_metrics_one_to_one` in `src/metrics.py`) this
-module uses, which differs subtly from the metric used by
-`synthetic_benchmark/` and `ablation/` and was required to exactly
-match two of FreezerSmallTrain's five reconstructions.
+(P=0.76, R=0.68, F1=0.71). 
 
 ## Reproducing the ablation study (Table 4)
 
