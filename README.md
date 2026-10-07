@@ -77,7 +77,7 @@ Its 101-point curve is cached in `data/tsc17_baseline_f1.csv`; all 11
 values at 10%-increment noise levels were cross-checked against the
 paper's published Table 2 and match exactly.
 
-## Reproducing the real-world benchmark evaluation (Table 4)
+## Reproducing the real-world benchmark evaluation (Table 3)
 
 ```bash
 cd real_world_benchmark
@@ -97,7 +97,7 @@ module uses, which differs subtly from the metric used by
 `synthetic_benchmark/` and `ablation/` and was required to exactly
 match two of FreezerSmallTrain's five reconstructions.
 
-## Reproducing the ablation study (Table 3)
+## Reproducing the ablation study (Table 4)
 
 ```bash
 cd ablation
