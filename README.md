@@ -27,15 +27,15 @@ src/                    Core framework (import as a package)
   plotting.py              Shared chain visualization utility
 
 case_studies/            One folder per case study in Section 5.1
-  web_query/                Web Query Volume (Fig. 10, 11)
-  penguin/                  Penguin Activity (Fig. 12)
-  tilt_table/                Tilt Table Data (Fig. 13–16)
-  battery/                   Battery Discharge Capacity (new case study)
-  constant_signals/          Constant / trivial signal robustness test (Fig. 18)
+  web_query/                Web Query Volume (Fig. 9, 10)
+  penguin/                  Penguin Activity (Fig. 11)
+  tilt_table/                Tilt Table Data (Fig. 12–15)
+  battery/                   Battery Discharge Capacity (Fig. 16)
+  constant_signals/          Constant / trivial signal robustness test (Fig. 17)
 
-synthetic_benchmark/     Reproduces the synthetic benchmark evaluation (Section 5.2, Fig. 19, Table 2)
-real_world_benchmark/    Reproduces the real-world UCR benchmark evaluation (Section 5.2, Table 4)
-ablation/                Reproduces the ablation and efficiency study (Table 3)
+synthetic_benchmark/     Reproduces the synthetic benchmark evaluation (Section 5.2, Fig. 18, Table 2)
+real_world_benchmark/    Reproduces the real-world UCR benchmark evaluation (Section 5.2, Table 3)
+ablation/                Reproduces the ablation and efficiency study (Table 4)
 figures/                  Scripts to regenerate all numbered paper figures
 ```
 
