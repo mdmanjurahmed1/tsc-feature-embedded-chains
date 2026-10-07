@@ -55,7 +55,7 @@ python run_web_query.py --m 50
 See each case study folder's own short README for dataset-specific
 notes (source, license, and any caching details).
 
-## Reproducing the synthetic benchmark evaluation (Fig. 19, Table 2)
+## Reproducing the synthetic benchmark evaluation (Fig. 18, Table 2)
 
 ```bash
 cd synthetic_benchmark
